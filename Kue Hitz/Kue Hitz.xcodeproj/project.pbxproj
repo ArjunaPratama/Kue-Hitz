@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41802626346A7726ADEE58D3 /* Pods_Kue_HitzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B329A7AE59EEF48097E9CF /* Pods_Kue_HitzTests.framework */; };
+		5B9890C913A82C9D15C3F715 /* Pods_Kue_Hitz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA1B745DDA15745B83544FB /* Pods_Kue_Hitz.framework */; };
+		9D9BDF39837C541BFBB9BF90 /* Pods_Kue_HitzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6008F0BF97CF20B880662852 /* Pods_Kue_HitzUITests.framework */; };
+		DC98356A1FD7F0300009BB4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9835691FD7F0300009BB4D /* AppDelegate.swift */; };
+		DC98356C1FD7F0310009BB4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98356B1FD7F0310009BB4D /* ViewController.swift */; };
+		DC98356F1FD7F0310009BB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC98356D1FD7F0310009BB4D /* Main.storyboard */; };
+		DC9835711FD7F0310009BB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9835701FD7F0310009BB4D /* Assets.xcassets */; };
+		DC9835741FD7F0310009BB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9835721FD7F0310009BB4D /* LaunchScreen.storyboard */; };
+		DC98357F1FD7F0310009BB4D /* Kue_HitzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98357E1FD7F0310009BB4D /* Kue_HitzTests.swift */; };
+		DC98358A1FD7F0310009BB4D /* Kue_HitzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9835891FD7F0310009BB4D /* Kue_HitzUITests.swift */; };
+		DCFD09A41FD8F934006907F5 /* IsiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD09A31FD8F934006907F5 /* IsiViewController.swift */; };
+		DCFD09A61FD8F957006907F5 /* ArtisTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD09A51FD8F957006907F5 /* ArtisTableViewController.swift */; };
+		DCFD09A81FD8F96A006907F5 /* ArtisTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD09A71FD8F96A006907F5 /* ArtisTableViewCell.swift */; };
+		DCFD09AA1FD8F9A6006907F5 /* Artis.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD09A91FD8F9A6006907F5 /* Artis.swift */; };
+		DCFD09AC1FD919B3006907F5 /* Cute cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCFD09AB1FD919B3006907F5 /* Cute cake.jpg */; };
+		DCFD09AE1FD91D7A006907F5 /* Cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCFD09AD1FD91D79006907F5 /* Cake.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC98357B1FD7F0310009BB4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC98355E1FD7F0300009BB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC9835651FD7F0300009BB4D;
+			remoteInfo = "Kue Hitz";
+		};
+		DC9835861FD7F0310009BB4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC98355E1FD7F0300009BB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC9835651FD7F0300009BB4D;
+			remoteInfo = "Kue Hitz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B329A7AE59EEF48097E9CF /* Pods_Kue_HitzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kue_HitzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2380D137E325CFEC9CE1D045 /* Pods-Kue HitzUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kue HitzUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kue HitzUITests/Pods-Kue HitzUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46C1AD0B074F287A44276B88 /* Pods-Kue Hitz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kue Hitz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kue Hitz/Pods-Kue Hitz.debug.xcconfig"; sourceTree = "<group>"; };
+		5279EBC9784A88C141C0DDF7 /* Pods-Kue HitzUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kue HitzUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kue HitzUITests/Pods-Kue HitzUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6008F0BF97CF20B880662852 /* Pods_Kue_HitzUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kue_HitzUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE91D0A67D665F089078950 /* Pods-Kue HitzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kue HitzTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kue HitzTests/Pods-Kue HitzTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB087640CE74A4DF8A53556 /* Pods-Kue HitzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kue HitzTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kue HitzTests/Pods-Kue HitzTests.release.xcconfig"; sourceTree = "<group>"; };
+		CCA1B745DDA15745B83544FB /* Pods_Kue_Hitz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kue_Hitz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9835661FD7F0300009BB4D /* Kue Hitz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kue Hitz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9835691FD7F0300009BB4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC98356B1FD7F0310009BB4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC98356E1FD7F0310009BB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC9835701FD7F0310009BB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC9835731FD7F0310009BB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC9835751FD7F0310009BB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC98357A1FD7F0310009BB4D /* Kue HitzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kue HitzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC98357E1FD7F0310009BB4D /* Kue_HitzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kue_HitzTests.swift; sourceTree = "<group>"; };
+		DC9835801FD7F0310009BB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9835851FD7F0310009BB4D /* Kue HitzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kue HitzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9835891FD7F0310009BB4D /* Kue_HitzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kue_HitzUITests.swift; sourceTree = "<group>"; };
+		DC98358B1FD7F0310009BB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFD09A31FD8F934006907F5 /* IsiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsiViewController.swift; sourceTree = "<group>"; };
+		DCFD09A51FD8F957006907F5 /* ArtisTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisTableViewController.swift; sourceTree = "<group>"; };
+		DCFD09A71FD8F96A006907F5 /* ArtisTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisTableViewCell.swift; sourceTree = "<group>"; };
+		DCFD09A91FD8F9A6006907F5 /* Artis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artis.swift; sourceTree = "<group>"; };
+		DCFD09AB1FD919B3006907F5 /* Cute cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cute cake.jpg"; sourceTree = "<group>"; };
+		DCFD09AD1FD91D79006907F5 /* Cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cake.jpg; sourceTree = "<group>"; };
+		E422686DBF587FA279272CA0 /* Pods-Kue Hitz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kue Hitz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kue Hitz/Pods-Kue Hitz.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9835631FD7F0300009BB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9890C913A82C9D15C3F715 /* Pods_Kue_Hitz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9835771FD7F0310009BB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41802626346A7726ADEE58D3 /* Pods_Kue_HitzTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9835821FD7F0310009BB4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9BDF39837C541BFBB9BF90 /* Pods_Kue_HitzUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D5FEC46184D86EBD5B22B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1B745DDA15745B83544FB /* Pods_Kue_Hitz.framework */,
+				01B329A7AE59EEF48097E9CF /* Pods_Kue_HitzTests.framework */,
+				6008F0BF97CF20B880662852 /* Pods_Kue_HitzUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC98355D1FD7F0300009BB4D = {
+			isa = PBXGroup;
+			children = (
+				DC9835681FD7F0300009BB4D /* Kue Hitz */,
+				DC98357D1FD7F0310009BB4D /* Kue HitzTests */,
+				DC9835881FD7F0310009BB4D /* Kue HitzUITests */,
+				DC9835671FD7F0300009BB4D /* Products */,
+				F5290410D737DCFBC9757F53 /* Pods */,
+				20D5FEC46184D86EBD5B22B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9835671FD7F0300009BB4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9835661FD7F0300009BB4D /* Kue Hitz.app */,
+				DC98357A1FD7F0310009BB4D /* Kue HitzTests.xctest */,
+				DC9835851FD7F0310009BB4D /* Kue HitzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9835681FD7F0300009BB4D /* Kue Hitz */ = {
+			isa = PBXGroup;
+			children = (
+				DCFD09AD1FD91D79006907F5 /* Cake.jpg */,
+				DCFD09AB1FD919B3006907F5 /* Cute cake.jpg */,
+				DC9835691FD7F0300009BB4D /* AppDelegate.swift */,
+				DC98356B1FD7F0310009BB4D /* ViewController.swift */,
+				DC98356D1FD7F0310009BB4D /* Main.storyboard */,
+				DCFD09A51FD8F957006907F5 /* ArtisTableViewController.swift */,
+				DCFD09A71FD8F96A006907F5 /* ArtisTableViewCell.swift */,
+				DCFD09A91FD8F9A6006907F5 /* Artis.swift */,
+				DC9835701FD7F0310009BB4D /* Assets.xcassets */,
+				DC9835721FD7F0310009BB4D /* LaunchScreen.storyboard */,
+				DC9835751FD7F0310009BB4D /* Info.plist */,
+				DCFD09A31FD8F934006907F5 /* IsiViewController.swift */,
+			);
+			path = "Kue Hitz";
+			sourceTree = "<group>";
+		};
+		DC98357D1FD7F0310009BB4D /* Kue HitzTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC98357E1FD7F0310009BB4D /* Kue_HitzTests.swift */,
+				DC9835801FD7F0310009BB4D /* Info.plist */,
+			);
+			path = "Kue HitzTests";
+			sourceTree = "<group>";
+		};
+		DC9835881FD7F0310009BB4D /* Kue HitzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC9835891FD7F0310009BB4D /* Kue_HitzUITests.swift */,
+				DC98358B1FD7F0310009BB4D /* Info.plist */,
+			);
+			path = "Kue HitzUITests";
+			sourceTree = "<group>";
+		};
+		F5290410D737DCFBC9757F53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46C1AD0B074F287A44276B88 /* Pods-Kue Hitz.debug.xcconfig */,
+				E422686DBF587FA279272CA0 /* Pods-Kue Hitz.release.xcconfig */,
+				8BE91D0A67D665F089078950 /* Pods-Kue HitzTests.debug.xcconfig */,
+				9CB087640CE74A4DF8A53556 /* Pods-Kue HitzTests.release.xcconfig */,
+				5279EBC9784A88C141C0DDF7 /* Pods-Kue HitzUITests.debug.xcconfig */,
+				2380D137E325CFEC9CE1D045 /* Pods-Kue HitzUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9835651FD7F0300009BB4D /* Kue Hitz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC98358E1FD7F0310009BB4D /* Build configuration list for PBXNativeTarget "Kue Hitz" */;
+			buildPhases = (
+				7F3E2259B115883FD2E3AB96 /* [CP] Check Pods Manifest.lock */,
+				DC9835621FD7F0300009BB4D /* Sources */,
+				DC9835631FD7F0300009BB4D /* Frameworks */,
+				DC9835641FD7F0300009BB4D /* Resources */,
+				9A1C79AE7AE18F1C883B439C /* [CP] Embed Pods Frameworks */,
+				EECBD8168CE1E09988A28498 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kue Hitz";
+			productName = "Kue Hitz";
+			productReference = DC9835661FD7F0300009BB4D /* Kue Hitz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC9835791FD7F0310009BB4D /* Kue HitzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9835911FD7F0310009BB4D /* Build configuration list for PBXNativeTarget "Kue HitzTests" */;
+			buildPhases = (
+				7E4428E595C2264C326CE45A /* [CP] Check Pods Manifest.lock */,
+				DC9835761FD7F0310009BB4D /* Sources */,
+				DC9835771FD7F0310009BB4D /* Frameworks */,
+				DC9835781FD7F0310009BB4D /* Resources */,
+				DF4634E5DA0BB0BC90D2A059 /* [CP] Embed Pods Frameworks */,
+				56C1E48FFBEBCD6152337703 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC98357C1FD7F0310009BB4D /* PBXTargetDependency */,
+			);
+			name = "Kue HitzTests";
+			productName = "Kue HitzTests";
+			productReference = DC98357A1FD7F0310009BB4D /* Kue HitzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC9835841FD7F0310009BB4D /* Kue HitzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9835941FD7F0310009BB4D /* Build configuration list for PBXNativeTarget "Kue HitzUITests" */;
+			buildPhases = (
+				762065B3E03F78CF83E3CE83 /* [CP] Check Pods Manifest.lock */,
+				DC9835811FD7F0310009BB4D /* Sources */,
+				DC9835821FD7F0310009BB4D /* Frameworks */,
+				DC9835831FD7F0310009BB4D /* Resources */,
+				63818D941A1CE05BF1129A11 /* [CP] Embed Pods Frameworks */,
+				34D8D6910312ACAB0D3E9CC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC9835871FD7F0310009BB4D /* PBXTargetDependency */,
+			);
+			name = "Kue HitzUITests";
+			productName = "Kue HitzUITests";
+			productReference = DC9835851FD7F0310009BB4D /* Kue HitzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC98355E1FD7F0300009BB4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Arjuna;
+				TargetAttributes = {
+					DC9835651FD7F0300009BB4D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DC9835791FD7F0310009BB4D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC9835651FD7F0300009BB4D;
+					};
+					DC9835841FD7F0310009BB4D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC9835651FD7F0300009BB4D;
+					};
+				};
+			};
+			buildConfigurationList = DC9835611FD7F0300009BB4D /* Build configuration list for PBXProject "Kue Hitz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC98355D1FD7F0300009BB4D;
+			productRefGroup = DC9835671FD7F0300009BB4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9835651FD7F0300009BB4D /* Kue Hitz */,
+				DC9835791FD7F0310009BB4D /* Kue HitzTests */,
+				DC9835841FD7F0310009BB4D /* Kue HitzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9835641FD7F0300009BB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9835741FD7F0310009BB4D /* LaunchScreen.storyboard in Resources */,
+				DCFD09AC1FD919B3006907F5 /* Cute cake.jpg in Resources */,
+				DCFD09AE1FD91D7A006907F5 /* Cake.jpg in Resources */,
+				DC9835711FD7F0310009BB4D /* Assets.xcassets in Resources */,
+				DC98356F1FD7F0310009BB4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9835781FD7F0310009BB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9835831FD7F0310009BB4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D8D6910312ACAB0D3E9CC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kue HitzUITests/Pods-Kue HitzUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56C1E48FFBEBCD6152337703 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kue HitzTests/Pods-Kue HitzTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63818D941A1CE05BF1129A11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kue HitzUITests/Pods-Kue HitzUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		762065B3E03F78CF83E3CE83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kue HitzUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E4428E595C2264C326CE45A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kue HitzTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F3E2259B115883FD2E3AB96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kue Hitz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1C79AE7AE18F1C883B439C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kue Hitz/Pods-Kue Hitz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kue Hitz/Pods-Kue Hitz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF4634E5DA0BB0BC90D2A059 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kue HitzTests/Pods-Kue HitzTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EECBD8168CE1E09988A28498 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kue Hitz/Pods-Kue Hitz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9835621FD7F0300009BB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC98356C1FD7F0310009BB4D /* ViewController.swift in Sources */,
+				DCFD09A41FD8F934006907F5 /* IsiViewController.swift in Sources */,
+				DC98356A1FD7F0300009BB4D /* AppDelegate.swift in Sources */,
+				DCFD09AA1FD8F9A6006907F5 /* Artis.swift in Sources */,
+				DCFD09A81FD8F96A006907F5 /* ArtisTableViewCell.swift in Sources */,
+				DCFD09A61FD8F957006907F5 /* ArtisTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9835761FD7F0310009BB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC98357F1FD7F0310009BB4D /* Kue_HitzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9835811FD7F0310009BB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC98358A1FD7F0310009BB4D /* Kue_HitzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC98357C1FD7F0310009BB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9835651FD7F0300009BB4D /* Kue Hitz */;
+			targetProxy = DC98357B1FD7F0310009BB4D /* PBXContainerItemProxy */;
+		};
+		DC9835871FD7F0310009BB4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9835651FD7F0300009BB4D /* Kue Hitz */;
+			targetProxy = DC9835861FD7F0310009BB4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC98356D1FD7F0310009BB4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC98356E1FD7F0310009BB4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC9835721FD7F0310009BB4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9835731FD7F0310009BB4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC98358C1FD7F0310009BB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC98358D1FD7F0310009BB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC98358F1FD7F0310009BB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C1AD0B074F287A44276B88 /* Pods-Kue Hitz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kue Hitz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Kue-Hitz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC9835901FD7F0310009BB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E422686DBF587FA279272CA0 /* Pods-Kue Hitz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kue Hitz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Kue-Hitz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC9835921FD7F0310009BB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE91D0A67D665F089078950 /* Pods-Kue HitzTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kue HitzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Kue-HitzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kue Hitz.app/Kue Hitz";
+			};
+			name = Debug;
+		};
+		DC9835931FD7F0310009BB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB087640CE74A4DF8A53556 /* Pods-Kue HitzTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kue HitzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Kue-HitzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kue Hitz.app/Kue Hitz";
+			};
+			name = Release;
+		};
+		DC9835951FD7F0310009BB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5279EBC9784A88C141C0DDF7 /* Pods-Kue HitzUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kue HitzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Kue-HitzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kue Hitz";
+			};
+			name = Debug;
+		};
+		DC9835961FD7F0310009BB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2380D137E325CFEC9CE1D045 /* Pods-Kue HitzUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kue HitzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.Kue-HitzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kue Hitz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9835611FD7F0300009BB4D /* Build configuration list for PBXProject "Kue Hitz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC98358C1FD7F0310009BB4D /* Debug */,
+				DC98358D1FD7F0310009BB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC98358E1FD7F0310009BB4D /* Build configuration list for PBXNativeTarget "Kue Hitz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC98358F1FD7F0310009BB4D /* Debug */,
+				DC9835901FD7F0310009BB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9835911FD7F0310009BB4D /* Build configuration list for PBXNativeTarget "Kue HitzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9835921FD7F0310009BB4D /* Debug */,
+				DC9835931FD7F0310009BB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9835941FD7F0310009BB4D /* Build configuration list for PBXNativeTarget "Kue HitzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9835951FD7F0310009BB4D /* Debug */,
+				DC9835961FD7F0310009BB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC98355E1FD7F0300009BB4D /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Kue_Hitz {
+  umbrella header "Pods-Kue Hitz-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Fz-7R-ZIC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TimesNewRomanBold.ttf">
+            <string>TimesNewRomanPS-BoldMT</string>
+        </array>
+        <array key="TimesNewRomanBoldItalic.ttf">
+            <string>TimesNewRomanPS-BoldItalicMT</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--HOME-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kue_Hitz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cute cake.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DGt-mG-Xoq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DGt-mG-Xoq" secondAttribute="height" multiplier="125:206" id="Ifh-MM-0Cr"/>
+                                    <constraint firstAttribute="height" constant="618" id="TQP-gv-OeA"/>
+                                    <constraint firstAttribute="width" constant="375" id="n7i-m9-9NZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="1000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Can-Uu-6K9">
+                                <rect key="frame" x="16" y="474" width="343" height="132"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Can-Uu-6K9" secondAttribute="height" multiplier="343:132" id="KPv-6E-YI0"/>
+                                    <constraint firstAttribute="width" constant="343" id="YOb-cG-MTs"/>
+                                    <constraint firstAttribute="height" constant="132" id="p1M-5d-BMm"/>
+                                </constraints>
+                                <string key="text">Applikasi ini bertujuan untuk mempromosikan beberapa list tempat kue hitz kekinian yang didirikan oleh para artis tanah air kita.</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DGt-mG-Xoq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="A1J-N2-LKb"/>
+                            <constraint firstItem="DGt-mG-Xoq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="QSV-OC-M9d"/>
+                            <constraint firstItem="DGt-mG-Xoq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SGb-AP-B4e"/>
+                            <constraint firstItem="Can-Uu-6K9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="WPP-qL-Jgw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Can-Uu-6K9" secondAttribute="trailing" constant="16" id="bLf-b7-NMt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Can-Uu-6K9" secondAttribute="bottom" constant="12" id="mAK-Lf-fSC"/>
+                            <constraint firstItem="Can-Uu-6K9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="454" id="tpG-Oa-WwI"/>
+                            <constraint firstItem="DGt-mG-Xoq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xYv-9V-KIa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="HOME" image="dinner (1)" selectedImage="dinner (1)" id="2yB-NT-vEs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="616.79999999999995" y="-188.45577211394306"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="jgd-4w-zOK">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0Fz-7R-ZIC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tAL-fb-q0K">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="fHd-Az-hlZ"/>
+                        <segue destination="dOV-AG-voe" kind="relationship" relationship="viewControllers" id="KrY-eR-ilg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tx3-eX-NJj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-163.19999999999999" y="133.13343328335833"/>
+        </scene>
+        <!--MENU-->
+        <scene sceneID="sTs-a7-VUp">
+            <objects>
+                <tableViewController id="dOV-AG-voe" customClass="ArtisTableViewController" customModule="Kue_Hitz" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="vty-Og-U5f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="110" id="Tq7-CX-qwo" customClass="ArtisTableViewCell" customModule="Kue_Hitz" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="110"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Tq7-CX-qwo" id="Tzs-Ba-Hzx">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="109.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cake.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aea-f6-cUS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="375" id="IlX-JH-h2t"/>
+                                                <constraint firstAttribute="height" constant="110" id="nQu-0b-bfh"/>
+                                                <constraint firstAttribute="width" secondItem="aea-f6-cUS" secondAttribute="height" multiplier="75:22" id="zFb-dd-orq"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nama Makanan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxT-hS-Z4u">
+                                            <rect key="frame" x="16" y="35" width="343" height="38"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="343" id="F6D-xS-EjX"/>
+                                                <constraint firstAttribute="width" secondItem="ZxT-hS-Z4u" secondAttribute="height" multiplier="343:38" id="Ihu-2V-oWx"/>
+                                                <constraint firstAttribute="height" constant="38" id="cWb-Mc-0VZ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="25"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ZxT-hS-Z4u" firstAttribute="trailing" secondItem="Tzs-Ba-Hzx" secondAttribute="trailingMargin" id="0vl-d1-INl"/>
+                                        <constraint firstItem="ZxT-hS-Z4u" firstAttribute="top" secondItem="Tzs-Ba-Hzx" secondAttribute="topMargin" constant="24" id="J6j-sb-TUi"/>
+                                        <constraint firstItem="aea-f6-cUS" firstAttribute="leading" secondItem="Tzs-Ba-Hzx" secondAttribute="leading" id="O01-MO-LaX"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="ZxT-hS-Z4u" secondAttribute="bottom" constant="26" id="fAg-qJ-C8t"/>
+                                        <constraint firstItem="ZxT-hS-Z4u" firstAttribute="leading" secondItem="Tzs-Ba-Hzx" secondAttribute="leadingMargin" id="h79-FN-ELc"/>
+                                        <constraint firstAttribute="trailing" secondItem="aea-f6-cUS" secondAttribute="trailing" id="jcq-rq-ZnX"/>
+                                        <constraint firstItem="aea-f6-cUS" firstAttribute="top" secondItem="Tzs-Ba-Hzx" secondAttribute="top" id="p3M-QC-dZC"/>
+                                        <constraint firstAttribute="bottom" secondItem="aea-f6-cUS" secondAttribute="bottom" constant="-0.5" id="rad-id-VcV"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="labeljudul" destination="ZxT-hS-Z4u" id="swJ-iv-GtI"/>
+                                    <segue destination="enC-92-jhV" kind="modal" identifier="PassData" id="1Oa-1J-2Vc"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dOV-AG-voe" id="Klk-5e-JXG"/>
+                            <outlet property="delegate" destination="dOV-AG-voe" id="sg3-Yf-VAR"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="MENU" image="menu (1)" selectedImage="menu (1)" id="UDA-pb-5Sh"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yUb-cn-7NY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="635.5" y="617.5"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="hFY-6S-aFU">
+            <objects>
+                <viewController id="enC-92-jhV" customClass="IsiViewController" customModule="Kue_Hitz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H1j-JL-8uD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nama Makanan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZs-DA-GLh">
+                                <rect key="frame" x="16" y="62" width="343" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nama Makanan" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10000000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFT-cQ-A7u">
+                                <rect key="frame" x="16" y="144" width="343" height="308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bt8-dR-8Of">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="DETAIL KUE ARTIS " id="25T-el-DXp">
+                                        <barButtonItem key="leftBarButtonItem" title="BACK" id="jWq-fc-scG">
+                                            <connections>
+                                                <segue destination="0Fz-7R-ZIC" kind="modal" id="Two-Nd-79P"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fIY-sZ-v7R"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="DEz-1y-ukk"/>
+                    <connections>
+                        <outlet property="lblisi" destination="NFT-cQ-A7u" id="82M-AT-XEK"/>
+                        <outlet property="lblnama" destination="LZs-DA-GLh" id="qZp-lk-ddg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dzN-bu-0vw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1437.5999999999999" y="674.21289355322347"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cake.jpg" width="750" height="333"/>
+        <image name="Cute cake.jpg" width="750" height="1334"/>
+        <image name="dinner (1)" width="24" height="24"/>
+        <image name="menu (1)" width="24" height="24"/>
+    </resources>
+</document>
